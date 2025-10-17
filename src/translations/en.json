@@ -1,0 +1,38 @@
+{
+  "header": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "achievements": "Achievements"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "achievements": "Achievements"
+  },
+  "about": {
+    "title": "About Me",
+    "profession": "Full Stack Developer with experience in web and mobile development",
+    "description": "Full Stack Developer with experience in web and mobile development"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "achievements": {
+    "title": "Achievements"
+  }
+}

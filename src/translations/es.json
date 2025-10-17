@@ -1,0 +1,38 @@
+{
+  "header": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "achievements": "Logros"
+  },
+  "nav": {
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "achievements": "Logros"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "profession": "Desarrollador Full Stack con experiencia en desarrollo web y móvil",
+    "description": "Desarrollador Full Stack con experiencia en desarrollo web y móvil"
+  },
+  "experience": {
+    "title": "Experiencia"
+  },
+  "education": {
+    "title": "Educación"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Proyectos"
+  },
+  "achievements": {
+    "title": "Logros"
+  }
+}
