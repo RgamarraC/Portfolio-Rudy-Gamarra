@@ -83,11 +83,11 @@ const App: React.FC = () => {
 
           <main id="content" className="pt-24 lg:w-7/12 lg:py-24">
             <About content={aboutData} />
-            <Experience experiences={experiences} />
-            <Projects projects={projects} onProjectSelect={setSelectedProject} />
-            <Skills skills={skills} />
-            <Education educationHistory={education} />
-            <Achievements achievements={achievements} />
+            <Experience experiences={experiences(t)} />
+            <Projects projects={projects(t)} onProjectSelect={setSelectedProject} />
+            <Skills skills={skills(t)} />
+            <Education educationHistory={education(t)} />
+            <Achievements achievements={achievements(t)} />
           </main>
         </div>
       </div>

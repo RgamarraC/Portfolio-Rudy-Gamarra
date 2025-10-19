@@ -20,7 +20,7 @@ export const shortAbout = "I build immersive and engaging digital experiences. W
 
 export const aboutData = "Senior Simulator and Video Game Developer with over 5 years of experience in immersive technologies and gamification. Specialist in Unity with a proven track record in developing innovative solutions for industrial and educational sectors. Noted experience in publishing projects on Meta and Steam platforms, as well as developing simulators for the mining-energy sector. My ability to combine technical creativity with business objectives has resulted in effective solutions and high-impact immersive experiences, including recognition at the Hackathon of the National Society of Mining, Petroleum, and Energy.";
 
-export const skills: SkillCategory[] = [
+export const skills = (t: (key: string) => string): SkillCategory[] => [
   {
     category: 'Technologies',
     skills: [
@@ -58,16 +58,16 @@ export const skills: SkillCategory[] = [
   },
 ];
 
-export const experiences: ExperienceItem[] = [
+export const experiences = (t: (key: string) => string): ExperienceItem[] => [
   {
-    company: 'OraculusXR',
-    title: 'VR Developer (Freelance)',
-    period: 'FEB 2025 – SET 2025',
-    location: 'Lima, Perú',
+    company: t('experiences.company.fisioVR'),
+    title: t('experiences.title.fisioVR'),
+    period: t('experiences.period.fisioVR'),
+    location: t('experiences.location.fisioVR'),
     description: [
-      'Design and development of an application for the Physical Therapy area.',
-      'Implementation of body detection for Virtual Reality.',
-      'Development and implementation of gamification.',
+      t('experiences.description.fisioVR.1'),
+      t('experiences.description.fisioVR.2'),
+      t('experiences.description.fisioVR.3'),
     ],
   },
   {
@@ -150,7 +150,7 @@ export const experiences: ExperienceItem[] = [
   },
 ];
 
-export const projects: ProjectItem[] = [
+export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Game Jam SANDA 2025',
     description: 'Desarrollo de un juego prototipo en un evento Game Jam, centrado en la temática de gravedad. La mecánica principal involucra a una araña que debe desafiar la gravedad para sobrevivir el mayor tiempo posible dentro de la mochila de un repartidor desenfrenado. El proyecto demuestra la capacidad de diseño rápido de mecánicas originales y, especialmente, la habilidad de colaboración efectiva al trabajar con un equipo recién formado bajo una restricción de tiempo intensa.',
@@ -373,32 +373,32 @@ export const projects: ProjectItem[] = [
   }
 ];
 
-export const education: EducationItem[] = [
+export const education = (t: (key: string) => string): EducationItem[] => [
   {
-    institution: 'TECSUP',
-    degree: 'Design and Development of Simulators and Videogames',
-    period: '2016 – 2022',
-    location: 'Lima, Perú',
+    institution: t('education.institution.tecSup'),
+    degree: t('education.degree.tecSup'),
+    period: t('education.period.tecSup'),
+    location: t('education.location.tecSup'),
   },
   {
-    institution: 'CONVERSA - TECSUP',
-    degree: 'Intermediate Level English',
-    period: '2025',
-    location: 'Lima, Perú',
+    institution: t('education.institution.conversa'),
+    degree: t('education.degree.conversa'),
+    period: t('education.period.conversa'),
+    location: t('education.location.conversa'),
   },
 ];
 
-export const achievements: AchievementItem[] = [
+export const achievements = (t: (key: string) => string): AchievementItem[] => [
   {
-    description: 'Second Place in the 5th Hackathon "Together towards innovation from the mining-energy sector"',
+    description: t('achievements.hackathon'),
     source: 'SNMPE, 2019',
   },
   {
-    description: 'Successful publication of multiple projects on Meta Store and Steam.',
+    description: t('achievements.metaStore'),
     source: '',
   },
   {
-    description: 'Development of innovative solutions for critical sectors such as mining and education.',
+    description: t('achievements.innovativeSolutions'),
     source: '',
   },
 ];

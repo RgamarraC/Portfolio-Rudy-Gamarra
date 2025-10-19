@@ -7,14 +7,17 @@ export interface ContactInfo {
 
 export interface SkillCategory {
   category: string;
-  skills: { name: string; level?: 'Avanzado' | 'Intermedio' | 'Nativo' }[];
+  skills: {
+    name: string;
+    level?: string;
+  }[];
 }
 
 export interface ExperienceItem {
   company: string;
   title: string;
   period: string;
-  location:string;
+  location: string;
   description: string[];
 }
 
@@ -36,16 +39,16 @@ export interface NavLink {
 }
 
 export interface MediaItem {
-    type: 'image' | 'video';
-    src: string;
-    alt?: string;
+  type: 'image' | 'video';
+  src: string;
+  alt?: string;
 }
 
 export interface ProjectItem {
-    name: string;
-    description: string;
-    technologies: string[];
-    link?: string;
-    thumbnail: string;
-    media: MediaItem[];
+  name: string;
+  description: string;
+  technologies: string[];
+  link?: string;
+  thumbnail: string;
+  media: MediaItem[];
 }
