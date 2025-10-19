@@ -6,27 +6,24 @@ import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
-import { ExperienceItem } from '@/types';
+import { EducationItem, ExperienceItem, ProjectItem, SkillCategory,AchievementItem } from '@/types';
 
 
 interface ContentProps {
   projects: (t: (key: string) => string) => any[];
-  skills: (t: (key: string) => string) => any[];
-  education: (t: (key: string) => string) => any[];
-  achievements: (t: (key: string) => string) => any[];
   setSelectedProject: (project: any) => void;
 }
 
 
 const Content: React.FC<ContentProps> = ({
   projects,
-  skills,
-  education,
-  achievements,
   setSelectedProject,
 }) => {
   const { t } = useTranslation();
   const experiences = t('experience.position', { returnObjects: true }) as ExperienceItem[];
+  const education = t('education.studies', { returnObjects: true }) as EducationItem[];
+  const skillsData = t('skills.list', { returnObjects: true }) as SkillCategory[];
+  const achievementsData = t('achievements.list', { returnObjects: true }) as AchievementItem[];
 
   return (
     <main id="content" className="pt-24 lg:w-7/12 lg:py-24">
@@ -49,17 +46,17 @@ const Content: React.FC<ContentProps> = ({
       <Skills
         id="skills"
         title={t('nav.skills')}
-        skills={skills(t)}
+        skills={skillsData}
       />
       <Education
         id="education"
         title={t('nav.education')}
-        educationHistory={education(t)}
+        educationHistory={education}
       />
       <Achievements
         id="achievements"
         title={t('nav.achievements')}
-        achievements={achievements(t)}
+        achievements={achievementsData}
       />
     </main>
   )

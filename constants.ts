@@ -15,141 +15,6 @@ export const navLinks = (t: (key: string) => string): NavLink[] => [
   { id: 'education', name: t('nav.education') },
   { id: 'achievements', name: t('nav.achievements') },
 ];
-
-export const shortAbout = "I build immersive and engaging digital experiences. With a foundation in game development and simulation, I specialize in bringing ideas to life using Unity, VR/AR, and WebGL.";
-
-export const aboutData = "Senior Simulator and Video Game Developer with over 5 years of experience in immersive technologies and gamification. Specialist in Unity with a proven track record in developing innovative solutions for industrial and educational sectors. Noted experience in publishing projects on Meta and Steam platforms, as well as developing simulators for the mining-energy sector. My ability to combine technical creativity with business objectives has resulted in effective solutions and high-impact immersive experiences, including recognition at the Hackathon of the National Society of Mining, Petroleum, and Energy.";
-
-export const skills = (t: (key: string) => string): SkillCategory[] => [
-  {
-    category: 'Technologies',
-    skills: [
-      { name: 'Unity', level: 'Avanzado' },
-      { name: 'C#' },
-      { name: 'WebGL' },
-      { name: 'VR/AR' },
-      { name: 'Meta Quest' },
-      { name: 'Steam VR' },
-    ],
-  },
-  {
-    category: 'Tools',
-    skills: [
-      { name: 'Git' },
-      { name: 'JIRA' },
-      { name: 'Visual Studio' },
-      { name: 'Unity Profiler' },
-    ],
-  },
-  {
-    category: '3D Modeling',
-    skills: [{ name: 'Maya' }, { name: 'Blender' }],
-  },
-  {
-    category: 'Methodologies',
-    skills: [{ name: 'Scrum' }, { name: 'Gamification' }, { name: 'Agile Development' }],
-  },
-  {
-    category: 'Languages',
-    skills: [
-      { name: 'Spanish', level: 'Nativo' },
-      { name: 'English', level: 'Intermedio' },
-    ],
-  },
-];
-
-export const experiences = (t: (key: string) => string): ExperienceItem[] => [
-  {
-    company: t('experiences.puestos[0].company'),
-    title: t('experiences.title.fisioVR'),
-    period: t('experiences.period.fisioVR'),
-    location: t('experiences.location.fisioVR'),
-    description: [
-      t('experiences.description.fisioVR.1'),
-      t('experiences.description.fisioVR.2'),
-      t('experiences.description.fisioVR.3'),
-    ],
-  },
-  {
-    company: 'GDP',
-    title: 'Unity Developer',
-    period: 'NOV 2024 – FEB 2025',
-    location: 'Lima, Perú',
-    description: [
-      'Development and implementation of games for casino machines using Unity.',
-      'Optimization of game mechanics and reward systems to maximize user experience.',
-      'Implementation of agile development practices to improve team efficiency.',
-      'Improvements in user interface and navigation.',
-    ],
-  },
-  {
-    company: 'Ministerio de Cultura',
-    title: 'VR Developer (Freelance)',
-    period: 'JUN 2024 – JUL 2024',
-    location: 'Lima, Perú',
-    description: [
-      'Successful optimization and publication of an immersive experience on Meta and Steam.',
-      'Implementation of graphical quality improvements, increasing performance by 40%.',
-      'Development of new interaction mechanics to enhance user experience.',
-    ],
-  },
-  {
-    company: 'ARTEMAR',
-    title: 'VR Simulators Developer',
-    period: 'JUN 2023 – FEB 2024',
-    location: 'Lima, Perú',
-    description: [
-      'Leadership in the development of the SOMA project using Teslasuit technology.',
-      'Implementation of an industrial training system with gamification.',
-      'Achieved a 30% reduction in training time through immersive simulations.',
-    ],
-  },
-  {
-    company: 'Multipacha',
-    title: 'Simulators Developer',
-    period: 'MAR 2022 – MAR 2023',
-    location: 'Lima, Perú',
-    description: [
-      'Development of security simulators for the mining sector.',
-      'Implementation of evaluation systems and performance metrics.',
-      'Trained over 200 operators in security procedures.',
-    ],
-  },
-  {
-    company: 'IMMERSIF BRANDS',
-    title: 'VR Developer (Freelance)',
-    period: 'SEP 2022 – OCT 2022',
-    location: 'Lima, Perú',
-    description: [
-      'Complete development of a veterinary simulator for Oculus Quest.',
-      'Implementation of detailed medical procedures with technical precision.',
-      'Performance optimization for VR devices, improving FPS by 50%.',
-    ],
-  },
-  {
-    company: 'MODO BETA',
-    title: 'Unity WebGL Developer (Freelance)',
-    period: 'APR 2022 – AUG 2022',
-    location: 'Lima, Perú',
-    description: [
-      'Development of a 3D apartment visualizer in WebGL.',
-      'Web performance optimization, reducing load time by 60%.',
-      'Implementation of intuitive navigation, increasing engagement by 45%.',
-    ],
-  },
-  {
-    company: 'Playtec',
-    title: 'Simulators Developer',
-    period: 'JAN 2019 – JUN 2021',
-    location: 'Lima, Perú',
-    description: [
-      'Multiplatform development of educational and training simulators.',
-      'Successful presentation of projects at Perumin 2019.',
-      'Development of interactive material for CARE and MINEDU.',
-    ],
-  },
-];
-
 export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Game Jam SANDA 2025',
@@ -170,7 +35,7 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Civilización Caral (Mejora Gráfica y Navegación)',
     description: 'Proyecto de optimización de una experiencia de Realidad Extendida (XR) sobre la Civilización Caral, desarrollado en Unity. El enfoque principal fue la mejoría gráfica (fidelidad visual, texturizado) y la reingeniería de la navegación (UI/UX) para una exploración más intuitiva y fluida. Un logro clave fue la publicación exitosa en las tiendas de Steam y Meta Quest, demostrando experiencia en el ciclo completo de desarrollo y distribución de aplicaciones de Realidad Virtual multiplataforma.',
-    technologies: ['Unity', 'C#', 'VR','Steam','Meta Quest'],
+    technologies: ['Unity', 'C#', 'VR', 'Steam', 'Meta Quest'],
     thumbnail: '/assets/projects/Caral Pututus/img1.webp',
     media: [
       { type: 'video', src: 'https://youtu.be/66kOun_O4L8' },
@@ -183,7 +48,7 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Demo Técnica Caral (Implementación Total)',
     description: 'Liderazgo en el desarrollo inicial y la implementación completa de la solución de Realidad Extendida sobre la Civilización Caral. El proyecto abarcó el diseño conceptual, la programación de la lógica de aplicación, la integración de contenido 3D a escala y la validación técnica (Demo Técnica) de funcionalidades clave como el tracking de superficie y el rendimiento, asegurando la viabilidad técnica para la recreación del sitio arqueológico.',
-    technologies: ['Unity', 'C#','Meta Quest','VR'],
+    technologies: ['Unity', 'C#', 'Meta Quest', 'VR'],
     thumbnail: '/assets/projects/Demo tecnica Caral/img1.webp',
     media: [
       { type: 'video', src: 'https://youtu.be/euE8oVjLfcc' },
@@ -254,7 +119,7 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'CARE Fichas Interactivas (Desarrollo Offline MINEDU)',
     description: 'Desarrollo rápido de una suite de ayudas didácticas digitales masivas en colaboración con CARE Perú y el Ministerio de Educación (MINEDU). El proyecto se enfocó en asegurar la continuidad educativa para estudiantes de primaria y secundaria en siete áreas curriculares (Matemáticas, Comunicación, Ciencias, etc.) durante la pandemia. Para maximizar el compromiso y el aprendizaje, se utilizó la gamificación en el entorno educativo, permitiendo que los estudiantes aprendieran jugando. El reto técnico principal fue el desarrollo offline-first para tablets, destinado a zonas sin acceso a internet. Esto requirió el diseño de un sistema robusto de almacenamiento de notas local y un aplicativo maestro para docentes, el cual se conectaba a la tablet del alumno para recolectar automáticamente los archivos de progreso y notas.',
-    technologies: ['Unity', 'C#','Android'],
+    technologies: ['Unity', 'C#', 'Android'],
     thumbnail: '/assets/projects/CAREFichas/img1.webp',
     media: [
       { type: 'video', src: 'https://youtu.be/NwUr1uyS6Lk' },
@@ -329,7 +194,7 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Hackathon (Perumin 2019)',
     description: 'Desarrollo de un Producto Mínimo Viable (MVP) durante el Hackathon Perumin 2019, enfocado en la seguridad del empleado y accesibilidad en el área de SOMA. El proyecto implementó una simulación interactiva de un volquete (dump truck) para entrenar el procedimiento crítico de desenergizado, bloqueo, y etiquetado (LOTO). Esto demuestra la aplicación de prototipado rápido para generar soluciones de Realidad Extendida (XR) que minimicen riesgos en entornos mineros.',
-    technologies: ['Unity', 'C#','VR'],
+    technologies: ['Unity', 'C#', 'VR'],
     thumbnail: '/assets/projects/hackaton2019/img1.webp',
     media: [
       { type: 'video', src: 'https://youtu.be/6k6KqCOUab0' },
@@ -343,7 +208,7 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
   {
     name: 'Certus Simulador Educativo Multi-área',
     description: 'Diseño y desarrollo de una suite de 11 simuladores interactivos enfocados en múltiples áreas de estudio de Certus (incluyendo banca, importación y servicio al cliente). Cada módulo fue desarrollado en Unity y optimizado para WebGL para su integración en la plataforma educativa de la institución. El objetivo principal fue dotar a los estudiantes de una experiencia práctica en un entorno de simulación de negocios, con la funcionalidad clave de que los resultados y el desempeño se vean reflejados automáticamente en su cuadro de notas, demostrando experiencia en desarrollo de contenido formativo escalable con impacto académico directo.',
-    technologies: ['Unity', 'C#','WebGL'],
+    technologies: ['Unity', 'C#', 'WebGL'],
     thumbnail: '/assets/projects/Simulador Academico Certus/img1.webp',
     media: [
       { type: 'video', src: 'https://youtu.be/79AChp89Lqw' },
@@ -371,34 +236,4 @@ export const projects = (t: (key: string) => string): ProjectItem[] => [
       { type: 'image', src: '/assets/projects/Simulador Academico Certus/img22.webp' },
     ]
   }
-];
-
-export const education = (t: (key: string) => string): EducationItem[] => [
-  {
-    institution: t('education.institution.tecSup'),
-    degree: t('education.degree.tecSup'),
-    period: t('education.period.tecSup'),
-    location: t('education.location.tecSup'),
-  },
-  {
-    institution: t('education.institution.conversa'),
-    degree: t('education.degree.conversa'),
-    period: t('education.period.conversa'),
-    location: t('education.location.conversa'),
-  },
-];
-
-export const achievements = (t: (key: string) => string): AchievementItem[] => [
-  {
-    description: t('achievements.hackathon'),
-    source: 'SNMPE, 2019',
-  },
-  {
-    description: t('achievements.metaStore'),
-    source: '',
-  },
-  {
-    description: t('achievements.innovativeSolutions'),
-    source: '',
-  },
 ];

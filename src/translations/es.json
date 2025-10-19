@@ -36,17 +36,6 @@
         ]
       },
       {
-        "company": "Ministerio de Cultura - Zona Arqueológica Caral (Freelance)",
-        "title": "Desarrollador VR",
-        "period": "Junio 2023 - Julio 2024",
-        "location": "Lima, Perú",
-        "description": [
-          "Optimización y publicación exitosa de experiencia inmersiva en Meta y Steam.",
-          "Implementación de mejoras en la calidad gráfica aumentando el rendimiento en un 40%.",
-          "Desarrollo de nuevas mecánicas de interacción para mejorar la experiencia del usuario."
-        ]
-      },
-      {
         "company": "GDP",
         "title": "Desarrollador Unity",
         "period": "Noviembre 2024 - Febrero 2025",
@@ -59,14 +48,14 @@
         ]
       },
       {
-        "company": "IMMERSIF BRANDS (Freelance)",
+        "company": "Ministerio de Cultura - Zona Arqueológica Caral (Freelance)",
         "title": "Desarrollador VR",
         "period": "Junio 2024 - Julio 2024",
         "location": "Lima, Perú",
         "description": [
-          "Desarrollo completo de simulador veterinario para Oculus Quest.",
-          "Implementación de procedimientos médicos detallados con precisión técnica.",
-          "Optimización del rendimiento para dispositivos VR mejorando FPS en un 50%."
+          "Optimización y publicación exitosa de experiencia inmersiva en Meta y Steam.",
+          "Implementación de mejoras en la calidad gráfica aumentando el rendimiento en un 40%.",
+          "Desarrollo de nuevas mecánicas de interacción para mejorar la experiencia del usuario."
         ]
       },
       {
@@ -81,17 +70,6 @@
         ]
       },
       {
-        "company": "MODO BETA (Freelance)",
-        "title": "Desarrollador Unity WebGL",
-        "period": "Septiembre 2022 - Octubre 2022",
-        "location": "Lima, Perú",
-        "description": [
-          "Desarrollo de visualizador 3D de departamentos en WebGL.",
-          "Optimización del rendimiento web reduciendo tiempo de carga en un 60%.",
-          "Implementación de navegación intuitiva aumentando engagement en un 45%."
-        ]
-      },
-      {
         "company": "Multipacha",
         "title": "Desarrollador de Simuladores",
         "period": "Marzo 2022 - Marzo 2023",
@@ -103,14 +81,25 @@
         ]
       },
       {
-        "company": "OraculusXR (Freelance)",
+        "company": "IMMERSIF BRANDS (Freelance)",
         "title": "Desarrollador VR",
+        "period": "Septiembre 2022 - Octubre 2022",
+        "location": "Lima, Perú",
+        "description": [
+          "Desarrollo completo de simulador veterinario para Oculus Quest.",
+          "Implementación de procedimientos médicos detallados con precisión técnica.",
+          "Optimización del rendimiento para dispositivos VR mejorando FPS en un 50%."
+        ]
+      },
+      {
+        "company": "MODO BETA (Freelance)",
+        "title": "Desarrollador Unity WebGL",
         "period": "Abril 2022 - Agosto 2022",
         "location": "Lima, Perú",
         "description": [
-          "Diseño y desarrollo de aplicativo para el área de Fisioterapia.",
-          "Implementación de detección de cuerpo para Realidad Mixta.",
-          "Desarrollo e implementación de gamificación."
+          "Desarrollo de visualizador 3D de departamentos en WebGL.",
+          "Optimización del rendimiento web reduciendo tiempo de carga en un 60%.",
+          "Implementación de navegación intuitiva aumentando engagement en un 45%."
         ]
       },
       {
@@ -128,16 +117,16 @@
   },
   "education": {
     "title": "Educación",
-    "estudios": [
+    "studies": [
       {
-        "institucion": "TECSUP",
-        "titulo": "Diseño y Desarrollo de Simuladores y Videojuegos",
+        "institution": "TECSUP",
+        "degree": "Diseño y Desarrollo de Simuladores y Videojuegos",
         "location": "Lima, Perú",
         "period": "2016-2022"
       },
       {
-        "institucion": "CONVERSA - TECSUP",
-        "titulo": "Inglés Nivel Intermedio",
+        "institution": "CONVERSA - TECSUP",
+        "degree": "Inglés Nivel Intermedio",
         "location": "Lima, Perú",
         "period": "2025"
       }
@@ -145,26 +134,85 @@
   },
   "skills": {
     "title": "Habilidades",
-    "lista": [
+    "list": [
       {
-        "categoria": "Tecnologías",
-        "detalle": "Unity (Avanzado), C#, WebGL, VR/AR, Meta Quest, Steam VR"
+        "category": "Tecnologías",
+        "skills": [
+          {
+            "name": "Unity",
+            "level": "avanzado"
+          },
+          {
+            "name": "C#"
+          },
+          {
+            "name": "WebGL"
+          },
+          {
+            "name": "VR/AR"
+          },
+          {
+            "name": "Meta Quest"
+          },
+          {
+            "name": "Steam VR"
+          }
+        ]
       },
       {
-        "categoria": "Herramientas",
-        "detalle": "Git, JIRA, Visual Studio, Unity Profiler"
+        "category": "Herramientas",
+        "skills": [
+          {
+            "name": "Git"
+          },
+          {
+            "name": "JIRA"
+          },
+          {
+            "name": "Visual Studio"
+          },
+          {
+            "name": "Unity Profiler"
+          }
+        ]
       },
       {
-        "categoria": "Modelado 3D",
-        "detalle": "Maya, Blender"
+        "category": "Modelado 3D",
+        "skills": [
+          {
+            "name": "Maya"
+          },
+          {
+            "name": "Blender"
+          }
+        ]
       },
       {
-        "categoria": "Metodologías",
-        "detalle": "Scrum, Gamificación, Desarrollo Ágil"
+        "category": "Metodologías",
+        "skills": [
+          {
+            "name": "Scrum"
+          },
+          {
+            "name": "Gamification"
+          },
+          {
+            "name": "Agile Development"
+          }
+        ]
       },
       {
-        "categoria": "Idiomas",
-        "detalle": "Español (Nativo), Inglés (Intermedio)"
+        "category": "Idiomas",
+        "skills": [
+          {
+            "name": "Español",
+            "level": "Nativo"
+          },
+          {
+            "name": "Ingles",
+            "level": "Intermedio"
+          }
+        ]
       }
     ]
   },
@@ -173,10 +221,19 @@
   },
   "achievements": {
     "title": "Logros",
-    "lista": [
-      "Segundo Puesto en la 5ta Hackatón \"Juntos hacia la innovación desde el sector minero energético\" - SNMPE, 2019",
-      "Publicación exitosa de múltiples proyectos en Meta Store y Steam",
-      "Desarrollo de soluciones innovadoras para sectores críticos como minería y educación"
+    "list": [
+      {
+        "description": "Segundo Puesto en la 5ta Hackatón \"Juntos hacia la innovación desde el sector minero energético\" ",
+        "source": "SNMPE, 2019"
+      },
+      {
+        "description": "Publicación exitosa de múltiples proyectos en Meta Store y Steam",
+        "source": ""
+      },
+      {
+        "description": "Desarrollo de soluciones innovadoras para sectores críticos como minería y educación",
+        "source": ""
+      }
     ]
   }
 }

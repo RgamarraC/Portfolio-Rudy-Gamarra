@@ -9,16 +9,13 @@ import { darkTheme } from './src/styles/theme';
 import { GlobalStyle } from './src/styles/globalStyles';
 import { ExperienceItem, ProjectItem } from './types';
 import {
-  achievements, contact,
-  education, skills,
-  navLinks, projects
+  contact,navLinks, projects
 } from './constants';
 import Content from './src/views/Content';
 
 const App: React.FC = () => {
   const { t } = useTranslation();
   const experiences = t('experience.position', { returnObjects: true }) as ExperienceItem[];
-  console.log(experiences);
   const [activeSection, setActiveSection] = useState<string>('');
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
 
@@ -81,9 +78,6 @@ const App: React.FC = () => {
           </header>
          <Content
             projects={projects}
-            skills={skills}
-            education={education}
-            achievements={achievements}
             setSelectedProject={setSelectedProject}
          />
         </div>
