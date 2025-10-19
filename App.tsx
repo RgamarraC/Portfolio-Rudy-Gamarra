@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { ThemeProvider } from 'styled-components';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -10,6 +11,8 @@ import Projects from './components/Projects';
 import ProjectModal from './components/ProjectModal';
 import LanguageSelector from './components/LanguageSelector';
 import './src/i18n';
+import { darkTheme } from './src/styles/theme';
+import { GlobalStyle } from './src/styles/globalStyles';
 import { ProjectItem } from './types';
 import {
   aboutData, achievements, contact,
@@ -24,8 +27,6 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const sections = navLinks(t).map((link) => document.getElementById(link.id));
-    console.log(sections);
-    
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -62,7 +63,8 @@ const App: React.FC = () => {
 
 
   return (
-    <>
+    <ThemeProvider theme={darkTheme}>
+      <GlobalStyle theme={darkTheme} />
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-16">
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-5/12 lg:flex-col lg:justify-between lg:py-24">
@@ -94,7 +96,7 @@ const App: React.FC = () => {
       {selectedProject && (
         <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
       )}
-    </>
+    </ThemeProvider>
   );
 };
 

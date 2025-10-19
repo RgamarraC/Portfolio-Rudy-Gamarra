@@ -22,8 +22,7 @@ const Header: React.FC<HeaderProps> = ({
   activeSection
 }) => {
   const { t } = useTranslation();
-  // console.log(navLinks);
-  
+
   return (
     <div>
       <div className="flex justify-between items-start">
