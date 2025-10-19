@@ -20,7 +20,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences, id, title }) => {
               <li key={index} className="md:w-full">
                 <button
                   onClick={() => setActiveIndex(index)}
-                  className={`p-3 text-left w-full text-sm whitespace-nowrap transition-colors duration-300 ${index === activeIndex
+                  className={`p-3 text-left w-[200px] text-sm whitespace- transition-colors duration-300 ${index === activeIndex
                       ? 'bg-slate-800/50 text-cyan-300'
                       : 'hover:bg-slate-800/50 hover:text-cyan-300'
                     }`}
@@ -33,7 +33,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences, id, title }) => {
           </ul>
         </div>
 
-        <div className="md:w-3/4 px-4 mt-6 md:mt-0">
+        <div className="md:w-3/4 px-4 mt-6 md:mt-0 pl-[100px]">
           <h3 className="text-lg font-bold text-slate-200">
             <span>{activeExperience.title}</span>
             <span className="text-cyan-300"> @ {activeExperience.company}</span>

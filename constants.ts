@@ -60,7 +60,7 @@ export const skills = (t: (key: string) => string): SkillCategory[] => [
 
 export const experiences = (t: (key: string) => string): ExperienceItem[] => [
   {
-    company: t('experiences.company.fisioVR'),
+    company: t('experiences.puestos[0].company'),
     title: t('experiences.title.fisioVR'),
     period: t('experiences.period.fisioVR'),
     location: t('experiences.location.fisioVR'),

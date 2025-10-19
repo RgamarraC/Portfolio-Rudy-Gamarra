@@ -6,11 +6,10 @@ import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
+import { ExperienceItem } from '@/types';
 
 
 interface ContentProps {
-  aboutData: string;
-  experiences: (t: (key: string) => string) => any[];
   projects: (t: (key: string) => string) => any[];
   skills: (t: (key: string) => string) => any[];
   education: (t: (key: string) => string) => any[];
@@ -20,8 +19,6 @@ interface ContentProps {
 
 
 const Content: React.FC<ContentProps> = ({
-  aboutData,
-  experiences,
   projects,
   skills,
   education,
@@ -29,18 +26,19 @@ const Content: React.FC<ContentProps> = ({
   setSelectedProject,
 }) => {
   const { t } = useTranslation();
-  
+  const experiences = t('experience.position', { returnObjects: true }) as ExperienceItem[];
+
   return (
     <main id="content" className="pt-24 lg:w-7/12 lg:py-24">
       <About
         id="about"
         title={t('nav.about')}
-        content={aboutData}
+        content={t('about.description')}
       />
       <Experience
         id="experience"
         title={t('nav.experience')}
-        experiences={experiences(t)}
+        experiences={experiences}
       />
       <Projects
         id="projects"

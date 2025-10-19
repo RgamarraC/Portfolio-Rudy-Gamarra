@@ -7,16 +7,18 @@ import LanguageSelector from './components/LanguageSelector';
 import './src/i18n';
 import { darkTheme } from './src/styles/theme';
 import { GlobalStyle } from './src/styles/globalStyles';
-import { ProjectItem } from './types';
+import { ExperienceItem, ProjectItem } from './types';
 import {
-  aboutData, achievements, contact,
-  education, experiences, skills,
-  shortAbout, navLinks, projects
+  achievements, contact,
+  education, skills,
+  navLinks, projects
 } from './constants';
 import Content from './src/views/Content';
 
 const App: React.FC = () => {
   const { t } = useTranslation();
+  const experiences = t('experience.position', { returnObjects: true }) as ExperienceItem[];
+  console.log(experiences);
   const [activeSection, setActiveSection] = useState<string>('');
   const [selectedProject, setSelectedProject] = useState<ProjectItem | null>(null);
 
@@ -70,7 +72,7 @@ const App: React.FC = () => {
               <Header
                 name="Rudy Gamarra Condor"
                 title={t('about.profession')}
-                shortAbout={shortAbout}
+                shortAbout={t('about.shortAbout')}
                 contact={contact}
                 navLinks={navLinks(t)}
                 activeSection={activeSection}
@@ -78,8 +80,6 @@ const App: React.FC = () => {
             </div>
           </header>
          <Content
-            aboutData={aboutData}
-            experiences={experiences}
             projects={projects}
             skills={skills}
             education={education}

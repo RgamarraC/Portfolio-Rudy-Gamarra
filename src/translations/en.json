@@ -17,22 +17,166 @@
   },
   "about": {
     "title": "About Me",
-    "profession": "Full Stack Developer with experience in web and mobile development",
-    "description": "Full Stack Developer with experience in web and mobile development"
+    "profession": "Senior Simulator and Video Game Developer",
+    "shortAbout": "I build immersive and engaging digital experiences. With a foundation in game development and simulation, I specialize in bringing ideas to life using Unity, VR/AR, and WebGL.",
+    "description": "Unity Specialist with a proven track record in developing innovative solutions for industrial and educational sectors. Featured experience in publishing projects on Meta and Steam platforms, as well as developing simulators for the mining and energy sector. My ability to combine technical creativity with business objectives has resulted in effective solutions and high-impact immersive experiences, including recognition at the National Society of Mining, Petroleum, and Energy Hackathon."
   },
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "position": [
+      {
+        "company": "OraculusXR (Freelance)",
+        "title": "Unity Developer",
+        "period": "February 2025 - Agosto 2025",
+        "location": "Lima, Perú",
+        "description": [
+          "Design and development of an application for the Physiotherapy area.",
+          "Implementation of body detection for Mixed Reality.",
+          "Development and implementation of gamification."
+        ]
+      },
+      {
+        "company": "Ministry of Culture - Caral Archaeological Zone (Freelance)",
+        "title": "VR Developer",
+        "location": "Lima, Peru",
+        "period": "June 2025 - July 2025",
+        "description": [
+          "Successful optimization and publication of immersive experience on Meta and Steam.",
+          "Implementation of graphic quality improvements, increasing performance by 40%.",
+          "Development of new interaction mechanics to enhance user experience."
+        ]
+      },
+      {
+        "company": "GDP",
+        "title": "Unity Developer",
+        "location": "Lima, Peru",
+        "period": "November 2024 - February 2025",
+        "description": [
+          "Development and implementation of casino machine games using Unity.",
+          "Optimization of game mechanics and reward systems to maximize user experience.",
+          "Implementation of agile development practices to improve team efficiency.",
+          "Improvements in user interface and navigation."
+        ]
+      },
+      {
+        "company": "IMMERSIF BRANDS (Freelance)",
+        "title": "VR Developer",
+        "location": "Lima, Peru",
+        "period": "June 2024 - July 2024",
+        "description": [
+          "Complete development of a veterinary simulator for Oculus Quest.",
+          "Implementation of detailed medical procedures with technical precision.",
+          "Performance optimization for VR devices, improving FPS by 50%."
+        ]
+      },
+      {
+        "company": "ARTEMAR",
+        "title": "VR Simulator Developer",
+        "location": "Lima, Peru",
+        "period": "June 2023 - February 2024",
+        "description": [
+          "Leadership in the development of the SOMA project using Teslasuit technology.",
+          "Implementation of industrial training system with gamification.",
+          "30% reduction in training time through immersive simulations."
+        ]
+      },
+      {
+        "company": "MODO BETA (Freelance)",
+        "title": "Unity WebGL Developer",
+        "period": "September 2022 - October 2022",
+        "location": "Lima, Peru",
+        "description": [
+          "Development of a 3D apartment visualizer in WebGL.",
+          "Optimization of web performance, reducing loading time by 60%.",
+          "Implementation of intuitive navigation, increasing engagement by 45%."
+        ]
+      },
+      {
+        "company": "Multipacha",
+        "title": "Simulator Developer",
+        "period": "March 2022 - March 2023",
+        "location": "Lima, Peru",
+        "description": [
+          "Development of safety simulators for the mining sector.",
+          "Implementation of evaluation systems and performance metrics.",
+          "Training of over 200 operators in safety procedures."
+        ]
+      },
+      {
+        "company": "OraculusXR (Freelance)",
+        "title": "VR Developer",
+        "location": "Lima, Peru",
+        "period": "April 2022 - August 2022",
+        "description": [
+          "Design and development of an application for the Physiotherapy area.",
+          "Implementation of body detection for Mixed Reality.",
+          "Development and implementation of gamification."
+        ]
+      },
+      {
+        "company": "Playtec",
+        "title": "Simulator Developer",
+        "location": "Lima, Peru",
+        "period": "January 2019 - June 2021",
+        "description": [
+          "Cross-platform development of educational and training simulators.",
+          "Successful presentation of projects at Perumin 2019.",
+          "Development of interactive material for CARE MINEDU."
+        ]
+      }
+    ]
   },
   "education": {
-    "title": "Education"
+    "title": "Education",
+    "studies": [
+      {
+        "institution": "TECSUP",
+        "degree": "Design and Development of Simulators and Video Games",
+        "location": "Lima, Peru",
+        "period": "2016-2022"
+      },
+      {
+        "institution": "CONVERSA - TECSUP",
+        "degree": "Intermediate English Level",
+        "location": "Lima, Peru",
+        "period": "2025"
+      }
+    ]
   },
   "skills": {
-    "title": "Skills"
+    "title": "Skills",
+    "list": [
+      {
+        "category": "Technologies",
+        "detail": "Unity (Advanced), C#, WebGL, VR/AR, Meta Quest, Steam VR"
+      },
+      {
+        "category": "Tools",
+        "detail": "Git, JIRA, Visual Studio, Unity Profiler"
+      },
+      {
+        "category": "3D Modeling",
+        "detail": "Maya, Blender"
+      },
+      {
+        "category": "Methodologies",
+        "detail": "Scrum, Gamification, Agile Development"
+      },
+      {
+        "category": "Languages",
+        "detail": "Spanish (Native), English (Intermediate)"
+      }
+    ]
   },
   "projects": {
     "title": "Projects"
   },
   "achievements": {
-    "title": "Achievements"
+    "title": "Achievements",
+    "list": [
+      "Second Place in the 5th Hackathon 'Together towards innovation from the mining-energy sector' - SNMPE, 2019",
+      "Successful publication of multiple projects on Meta Store and Steam",
+      "Development of innovative solutions for critical sectors such as mining and education"
+    ]
   }
 }
