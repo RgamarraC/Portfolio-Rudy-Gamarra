@@ -1,36 +1,15 @@
 import React from 'react';
 import type { EducationItem } from '../types';
-
-interface SectionProps {
-  number: string;
-  title: string;
-  children: React.ReactNode;
-}
-
-const Section: React.FC<SectionProps> = ({ number, title, children }) => (
-    <section id={title.toLowerCase()} className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label={title}>
-    <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-      <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">{title}</h2>
-    </div>
-     <div className="lg:hidden flex items-center mb-6">
-      <h2 className="text-2xl font-bold text-slate-200 flex items-baseline whitespace-nowrap">
-          <span className="text-cyan-400 font-mono text-xl mr-3">{number}.</span>
-          {title}
-      </h2>
-      <div className="ml-4 h-px w-full bg-slate-700"></div>
-    </div>
-    {children}
-  </section>
-);
-
-
+import { Section } from './Section';
 interface EducationProps {
   educationHistory: EducationItem[];
+  id: string;
+  title: string;
 }
 
-const Education: React.FC<EducationProps> = ({ educationHistory }) => {
+const Education: React.FC<EducationProps> = ({ educationHistory, id, title }) => {
   return (
-    <Section number="05" title="Education">
+    <Section number="05" title={title} id={id}>
       <div className="space-y-4">
         {educationHistory.map((edu, index) => (
           <div key={index} className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">

@@ -84,12 +84,37 @@ const App: React.FC = () => {
           </header>
 
           <main id="content" className="pt-24 lg:w-7/12 lg:py-24">
-            <About content={aboutData} />
-            <Experience experiences={experiences(t)} />
-            <Projects projects={projects(t)} onProjectSelect={setSelectedProject} />
-            <Skills skills={skills(t)} />
-            <Education educationHistory={education(t)} />
-            <Achievements achievements={achievements(t)} />
+            <About
+              id="about"
+              title={t('nav.about')}
+              content={aboutData}
+            />
+            <Experience
+              id="experience"
+              title={t('nav.experience')}
+              experiences={experiences(t)}
+             />
+            <Projects
+              id="projects"
+              title={t('nav.projects')}
+              projects={projects(t)}
+              onProjectSelect={setSelectedProject}
+            />
+            <Skills
+              id="skills"
+              title={t('nav.skills')}
+              skills={skills(t)}
+            />
+            <Education
+              id="education"
+              title={t('nav.education')}
+              educationHistory={education(t)}
+            />
+            <Achievements
+              id="achievements"
+              title={t('nav.achievements')}
+              achievements={achievements(t)}
+            />
           </main>
         </div>
       </div>

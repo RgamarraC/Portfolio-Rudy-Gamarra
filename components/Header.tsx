@@ -1,8 +1,12 @@
 import React from 'react';
-import type { ContactInfo, NavLink } from '../types';
-import { EmailIcon, GitHubIcon, LinkedInIcon, PhoneIcon } from './Icons';
 import { useTranslation } from 'react-i18next';
-import LanguageSelector from './LanguageSelector';
+import type { ContactInfo, NavLink } from '../types';
+import {
+  EmailIcon,
+  GitHubIcon,
+  LinkedInIcon,
+  PhoneIcon
+} from './Icons';
 
 interface HeaderProps {
   name: string;
