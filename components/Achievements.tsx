@@ -1,6 +1,7 @@
 import React from 'react';
 import type { AchievementItem } from '../types';
 import { Section } from './Section';
+
 interface AchievementsProps {
   achievements: AchievementItem[];
   id: string;
@@ -18,8 +19,8 @@ const Achievements: React.FC<AchievementsProps> = ({ achievements, id, title }) 
               <svg className="w-6 h-6 text-cyan-400 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
             <div className="z-10 sm:col-span-6">
-                <p className="font-medium leading-snug text-slate-200">{ach.description}</p>
-                {ach.source && <p className="text-sm text-slate-500 mt-1">{ach.source}</p>}
+              <p className="font-medium leading-snug text-slate-200">{ach.description}</p>
+              {ach.source && <p className="text-sm text-slate-500 mt-1">{ach.source}</p>}
             </div>
           </div>
         ))}

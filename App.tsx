@@ -2,12 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ThemeProvider } from 'styled-components';
 import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Achievements from './components/Achievements';
-import Projects from './components/Projects';
 import ProjectModal from './components/ProjectModal';
 import LanguageSelector from './components/LanguageSelector';
 import './src/i18n';
@@ -19,6 +13,7 @@ import {
   education, experiences, skills,
   shortAbout, navLinks, projects
 } from './constants';
+import Content from './src/views/Content';
 
 const App: React.FC = () => {
   const { t } = useTranslation();
@@ -82,40 +77,15 @@ const App: React.FC = () => {
               />
             </div>
           </header>
-
-          <main id="content" className="pt-24 lg:w-7/12 lg:py-24">
-            <About
-              id="about"
-              title={t('nav.about')}
-              content={aboutData}
-            />
-            <Experience
-              id="experience"
-              title={t('nav.experience')}
-              experiences={experiences(t)}
-             />
-            <Projects
-              id="projects"
-              title={t('nav.projects')}
-              projects={projects(t)}
-              onProjectSelect={setSelectedProject}
-            />
-            <Skills
-              id="skills"
-              title={t('nav.skills')}
-              skills={skills(t)}
-            />
-            <Education
-              id="education"
-              title={t('nav.education')}
-              educationHistory={education(t)}
-            />
-            <Achievements
-              id="achievements"
-              title={t('nav.achievements')}
-              achievements={achievements(t)}
-            />
-          </main>
+         <Content
+            aboutData={aboutData}
+            experiences={experiences}
+            projects={projects}
+            skills={skills}
+            education={education}
+            achievements={achievements}
+            setSelectedProject={setSelectedProject}
+         />
         </div>
       </div>
       {selectedProject && (
