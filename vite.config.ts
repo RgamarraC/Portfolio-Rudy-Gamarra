@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
       },
       plugins: [react()],
-      base: 'https://rgamarrac.github.io/Portfolio-Rudy-Gamarra',
+      base: '/Portfolio-Rudy-Gamarra',
       resolve: {
         alias: {
           '@': path.resolve(__dirname, '.'),
