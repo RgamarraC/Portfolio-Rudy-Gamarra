@@ -226,7 +226,7 @@
           "Unity",
           "C#"
         ],
-        "thumbnail": "/assets/projects/GameJam/img1.webp",
+        "thumbnail": "assets/projects/GameJam/img1.webp",
         "media": [
           {
             "type": "video",
@@ -238,27 +238,27 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img1.webp"
+            "src": "assets/projects/GameJam/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img2.webp"
+            "src": "assets/projects/GameJam/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img3.webp"
+            "src": "assets/projects/GameJam/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img4.webp"
+            "src": "assets/projects/GameJam/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img5.webp"
+            "src": "assets/projects/GameJam/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/GameJam/img6.webp"
+            "src": "assets/projects/GameJam/img6.webp"
           }
         ]
       },
@@ -272,7 +272,7 @@
           "Steam",
           "Meta Quest"
         ],
-        "thumbnail": "/assets/projects/Caral Pututus/img1.webp",
+        "thumbnail": "assets/projects/Caral Pututus/img1.webp",
         "media": [
           {
             "type": "video",
@@ -280,19 +280,19 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Caral Pututus/img1.webp"
+            "src": "assets/projects/Caral Pututus/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Caral Pututus/img2.webp"
+            "src": "assets/projects/Caral Pututus/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Caral Pututus/img3.webp"
+            "src": "assets/projects/Caral Pututus/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Caral Pututus/img4.webp"
+            "src": "assets/projects/Caral Pututus/img4.webp"
           }
         ]
       },
@@ -305,7 +305,7 @@
           "VR",
           "Meta Quest"
         ],
-        "thumbnail": "/assets/projects/Demo tecnica Caral/img1.webp",
+        "thumbnail": "assets/projects/Demo tecnica Caral/img1.webp",
         "media": [
           {
             "type": "video",
@@ -313,43 +313,43 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img1.webp"
+            "src": "assets/projects/Demo tecnica Caral/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img2.webp"
+            "src": "assets/projects/Demo tecnica Caral/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img3.webp"
+            "src": "assets/projects/Demo tecnica Caral/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img4.webp"
+            "src": "assets/projects/Demo tecnica Caral/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img5.webp"
+            "src": "assets/projects/Demo tecnica Caral/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img6.webp"
+            "src": "assets/projects/Demo tecnica Caral/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img7.webp"
+            "src": "assets/projects/Demo tecnica Caral/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img8.webp"
+            "src": "assets/projects/Demo tecnica Caral/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img9.webp"
+            "src": "assets/projects/Demo tecnica Caral/img9.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Demo tecnica Caral/img10.webp"
+            "src": "assets/projects/Demo tecnica Caral/img10.webp"
           }
         ]
       },
@@ -362,7 +362,7 @@
           "AR",
           "Vuforia"
         ],
-        "thumbnail": "/assets/projects/ARObstetra/img1.webp",
+        "thumbnail": "assets/projects/ARObstetra/img1.webp",
         "media": [
           {
             "type": "video",
@@ -370,35 +370,35 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img1.webp"
+            "src": "assets/projects/ARObstetra/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img2.webp"
+            "src": "assets/projects/ARObstetra/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img3.webp"
+            "src": "assets/projects/ARObstetra/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img4.webp"
+            "src": "assets/projects/ARObstetra/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img5.webp"
+            "src": "assets/projects/ARObstetra/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img6.webp"
+            "src": "assets/projects/ARObstetra/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img7.webp"
+            "src": "assets/projects/ARObstetra/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/ARObstetra/img8.webp"
+            "src": "assets/projects/ARObstetra/img8.webp"
           }
         ]
       },
@@ -411,7 +411,7 @@
           "Meta quest",
           "VR"
         ],
-        "thumbnail": "/assets/projects/Veterinaria/img1.webp",
+        "thumbnail": "assets/projects/Veterinaria/img1.webp",
         "media": [
           {
             "type": "video",
@@ -419,51 +419,51 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img1.webp"
+            "src": "assets/projects/Veterinaria/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img2.webp"
+            "src": "assets/projects/Veterinaria/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img3.webp"
+            "src": "assets/projects/Veterinaria/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img4.webp"
+            "src": "assets/projects/Veterinaria/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img5.webp"
+            "src": "assets/projects/Veterinaria/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img6.webp"
+            "src": "assets/projects/Veterinaria/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img7.webp"
+            "src": "assets/projects/Veterinaria/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img8.webp"
+            "src": "assets/projects/Veterinaria/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img9.webp"
+            "src": "assets/projects/Veterinaria/img9.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img10.webp"
+            "src": "assets/projects/Veterinaria/img10.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img11.webp"
+            "src": "assets/projects/Veterinaria/img11.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Veterinaria/img12.webp"
+            "src": "assets/projects/Veterinaria/img12.webp"
           }
         ]
       },
@@ -475,7 +475,7 @@
           "C#",
           "WebGL"
         ],
-        "thumbnail": "/assets/projects/visulaizador dep/img1.webp",
+        "thumbnail": "assets/projects/visulaizador dep/img1.webp",
         "media": [
           {
             "type": "video",
@@ -483,23 +483,23 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/visulaizador dep/img1.webp"
+            "src": "assets/projects/visulaizador dep/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/visulaizador dep/img2.webp"
+            "src": "assets/projects/visulaizador dep/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/visulaizador dep/img3.webp"
+            "src": "assets/projects/visulaizador dep/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/visulaizador dep/img4.webp"
+            "src": "assets/projects/visulaizador dep/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/visulaizador dep/img5.webp"
+            "src": "assets/projects/visulaizador dep/img5.webp"
           }
         ]
       },
@@ -511,7 +511,7 @@
           "C#",
           "Android"
         ],
-        "thumbnail": "/assets/projects/CAREFichas/img1.webp",
+        "thumbnail": "assets/projects/CAREFichas/img1.webp",
         "media": [
           {
             "type": "video",
@@ -519,51 +519,51 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img1.webp"
+            "src": "assets/projects/CAREFichas/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img2.webp"
+            "src": "assets/projects/CAREFichas/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img3.webp"
+            "src": "assets/projects/CAREFichas/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img4.webp"
+            "src": "assets/projects/CAREFichas/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img5.webp"
+            "src": "assets/projects/CAREFichas/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img6.webp"
+            "src": "assets/projects/CAREFichas/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img7.webp"
+            "src": "assets/projects/CAREFichas/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img8.webp"
+            "src": "assets/projects/CAREFichas/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img9.webp"
+            "src": "assets/projects/CAREFichas/img9.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img10.webp"
+            "src": "assets/projects/CAREFichas/img10.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img11.webp"
+            "src": "assets/projects/CAREFichas/img11.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/CAREFichas/img12.webp"
+            "src": "assets/projects/CAREFichas/img12.webp"
           }
         ]
       },
@@ -576,7 +576,7 @@
           "Vuforia",
           "AR"
         ],
-        "thumbnail": "/assets/projects/AR_MarketingDemo/img1.webp",
+        "thumbnail": "assets/projects/AR_MarketingDemo/img1.webp",
         "media": [
           {
             "type": "video",
@@ -584,23 +584,23 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/AR_MarketingDemo/img1.webp"
+            "src": "assets/projects/AR_MarketingDemo/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/AR_MarketingDemo/img2.webp"
+            "src": "assets/projects/AR_MarketingDemo/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/AR_MarketingDemo/img3.webp"
+            "src": "assets/projects/AR_MarketingDemo/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/AR_MarketingDemo/img4.webp"
+            "src": "assets/projects/AR_MarketingDemo/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/AR_MarketingDemo/img5.webp"
+            "src": "assets/projects/AR_MarketingDemo/img5.webp"
           }
         ]
       },
@@ -613,7 +613,7 @@
           "VR",
           "WebGL"
         ],
-        "thumbnail": "/assets/projects/Luminarias/img1.webp",
+        "thumbnail": "assets/projects/Luminarias/img1.webp",
         "media": [
           {
             "type": "video",
@@ -625,43 +625,43 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img1.webp"
+            "src": "assets/projects/Luminarias/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img2.webp"
+            "src": "assets/projects/Luminarias/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img3.webp"
+            "src": "assets/projects/Luminarias/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img4.webp"
+            "src": "assets/projects/Luminarias/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img5.webp"
+            "src": "assets/projects/Luminarias/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img6.webp"
+            "src": "assets/projects/Luminarias/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img7.webp"
+            "src": "assets/projects/Luminarias/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img8.webp"
+            "src": "assets/projects/Luminarias/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img9.webp"
+            "src": "assets/projects/Luminarias/img9.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Luminarias/img10.webp"
+            "src": "assets/projects/Luminarias/img10.webp"
           }
         ]
       },
@@ -675,7 +675,7 @@
           "WebGL",
           "IBM Watson"
         ],
-        "thumbnail": "/assets/projects/Enel/img1.webp",
+        "thumbnail": "assets/projects/Enel/img1.webp",
         "media": [
           {
             "type": "video",
@@ -691,39 +691,39 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img1.webp"
+            "src": "assets/projects/Enel/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img2.webp"
+            "src": "assets/projects/Enel/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img3.webp"
+            "src": "assets/projects/Enel/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img4.webp"
+            "src": "assets/projects/Enel/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img5.webp"
+            "src": "assets/projects/Enel/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img6.webp"
+            "src": "assets/projects/Enel/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img7.webp"
+            "src": "assets/projects/Enel/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img8.webp"
+            "src": "assets/projects/Enel/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Enel/img9.webp"
+            "src": "assets/projects/Enel/img9.webp"
           }
         ]
       },
@@ -735,7 +735,7 @@
           "C#",
           "VR"
         ],
-        "thumbnail": "/assets/projects/hackaton2019/img1.webp",
+        "thumbnail": "assets/projects/hackaton2019/img1.webp",
         "media": [
           {
             "type": "video",
@@ -743,23 +743,23 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/hackaton2019/img1.webp"
+            "src": "assets/projects/hackaton2019/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/hackaton2019/img2.webp"
+            "src": "assets/projects/hackaton2019/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/hackaton2019/img3.webp"
+            "src": "assets/projects/hackaton2019/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/hackaton2019/img4.webp"
+            "src": "assets/projects/hackaton2019/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/hackaton2019/img5.webp"
+            "src": "assets/projects/hackaton2019/img5.webp"
           }
         ]
       },
@@ -771,7 +771,7 @@
           "C#",
           "WebGL"
         ],
-        "thumbnail": "/assets/projects/Simulador Academico Certus/img1.webp",
+        "thumbnail": "assets/projects/Simulador Academico Certus/img1.webp",
         "media": [
           {
             "type": "video",
@@ -779,91 +779,91 @@
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img1.webp"
+            "src": "assets/projects/Simulador Academico Certus/img1.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img2.webp"
+            "src": "assets/projects/Simulador Academico Certus/img2.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img3.webp"
+            "src": "assets/projects/Simulador Academico Certus/img3.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img4.webp"
+            "src": "assets/projects/Simulador Academico Certus/img4.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img5.webp"
+            "src": "assets/projects/Simulador Academico Certus/img5.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img6.webp"
+            "src": "assets/projects/Simulador Academico Certus/img6.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img7.webp"
+            "src": "assets/projects/Simulador Academico Certus/img7.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img8.webp"
+            "src": "assets/projects/Simulador Academico Certus/img8.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img9.webp"
+            "src": "assets/projects/Simulador Academico Certus/img9.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img10.webp"
+            "src": "assets/projects/Simulador Academico Certus/img10.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img11.webp"
+            "src": "assets/projects/Simulador Academico Certus/img11.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img12.webp"
+            "src": "assets/projects/Simulador Academico Certus/img12.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img13.webp"
+            "src": "assets/projects/Simulador Academico Certus/img13.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img14.webp"
+            "src": "assets/projects/Simulador Academico Certus/img14.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img15.webp"
+            "src": "assets/projects/Simulador Academico Certus/img15.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img16.webp"
+            "src": "assets/projects/Simulador Academico Certus/img16.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img17.webp"
+            "src": "assets/projects/Simulador Academico Certus/img17.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img18.webp"
+            "src": "assets/projects/Simulador Academico Certus/img18.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img19.webp"
+            "src": "assets/projects/Simulador Academico Certus/img19.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img20.webp"
+            "src": "assets/projects/Simulador Academico Certus/img20.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img21.webp"
+            "src": "assets/projects/Simulador Academico Certus/img21.webp"
           },
           {
             "type": "image",
-            "src": "/assets/projects/Simulador Academico Certus/img22.webp"
+            "src": "assets/projects/Simulador Academico Certus/img22.webp"
           }
         ]
       }
