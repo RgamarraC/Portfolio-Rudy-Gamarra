@@ -9,7 +9,7 @@ import { darkTheme } from './src/styles/theme';
 import { GlobalStyle } from './src/styles/globalStyles';
 import { ExperienceItem, ProjectItem } from './types';
 import {
-  contact,navLinks, projects
+  contact,navLinks,
 } from './constants';
 import Content from './src/views/Content';
 
@@ -77,7 +77,6 @@ const App: React.FC = () => {
             </div>
           </header>
          <Content
-            projects={projects}
             setSelectedProject={setSelectedProject}
          />
         </div>

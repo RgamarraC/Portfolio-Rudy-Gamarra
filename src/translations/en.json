@@ -217,7 +217,657 @@
     ]
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects",
+    "list": [
+      {
+        "name": "Game Jam SANDA 2025",
+        "description": "Development of a prototype game at a Game Jam event, centered on the theme of gravity. The main mechanic involves a spider that must defy gravity to survive as long as possible inside the backpack of a frenzied delivery man. The project demonstrates the ability to quickly design original mechanics and, especially, the ability to collaborate effectively when working with a newly formed team under an intense time constraint.",
+        "technologies": [
+          "Unity",
+          "C#"
+        ],
+        "thumbnail": "/assets/projects/GameJam/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/HUq7uPs4kXA"
+          },
+          {
+            "type": "video",
+            "src": "https://youtu.be/aNbAqfccavM"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/GameJam/img6.webp"
+          }
+        ]
+      },
+      {
+        "name": "Caral Civilization (Graphic and Navigation Improvements)",
+        "description": "Optimization project for an Extended Reality (XR) experience about the Caral Civilization, developed in Unity. The main focus was on graphical improvements (visual fidelity, texturing) and navigation reengineering (UI/UX) for more intuitive and fluid exploration. A key achievement was the successful publication on the Steam and Meta Quest stores, demonstrating expertise in the full development and distribution cycle of cross-platform VR applications.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "VR",
+          "Steam",
+          "Meta Quest"
+        ],
+        "thumbnail": "/assets/projects/Caral Pututus/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/66kOun_O4L8"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Caral Pututus/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Caral Pututus/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Caral Pututus/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Caral Pututus/img4.webp"
+          }
+        ]
+      },
+      {
+        "name": "Caral Technical Demo (Full Implementation)",
+        "description": "Leadership in the initial development and full implementation of the Extended Reality solution for the Caral Civilization. The project encompassed conceptual design, application logic programming, integration of 3D content at scale, and technical validation (Technical Demo) of key features such as surface tracking and performance, ensuring the technical feasibility for recreating the archaeological site.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "VR",
+          "Meta Quest"
+        ],
+        "thumbnail": "/assets/projects/Demo tecnica Caral/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/euE8oVjLfcc"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img9.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Demo tecnica Caral/img10.webp"
+          }
+        ]
+      },
+      {
+        "name": "AR Obstetrician (Visual Aid for Clinical Training)",
+        "description": "Development of an Augmented Reality system for an obstetrician, designed to serve as a visual aid and reference during student training. The solution was implemented using Vuforia AR to scan and augment existing physical teaching materials (booklets, models, etc.) with high-precision 3D digital content. This project focused on integration with existing resources and visual consistency, allowing students to visualize complex anatomy and procedures (such as shoulder dystocia or stages of labor) with a consistency that complements and enhances established training resources.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "AR",
+          "Vuforia"
+        ],
+        "thumbnail": "/assets/projects/ARObstetra/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/OOts5CddUxg"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/ARObstetra/img8.webp"
+          }
+        ]
+      },
+      {
+        "name": "Vet",
+        "description": "Development of a 3D interactive simulator focused on training for ovariectomy (spay surgery) in pets. The project provides a safe virtual environment for students and professionals to practice surgical tool manipulation and correct use, evaluating technique and accuracy in a critical simulation setting.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "Meta quest",
+          "VR"
+        ],
+        "thumbnail": "/assets/projects/Veterinaria/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/5qYEDPaL1Bk"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img9.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img10.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img11.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Veterinaria/img12.webp"
+          }
+        ]
+      },
+      {
+        "name": "Interactive Department Viewer",
+        "description": "Development of a 3D Interactive Apartment Viewer optimized for execution in WebGL (web browser). The project required extensive performance and resource optimization to ensure a fluid experience. The tool allows users to dynamically change floors and customize finishes (materials, textures, and reliefs) in real time, offering an immersive and highly accessible sales solution.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "WebGL"
+        ],
+        "thumbnail": "/assets/projects/visulaizador dep/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/RRNnvHxroAM"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/visulaizador dep/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/visulaizador dep/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/visulaizador dep/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/visulaizador dep/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/visulaizador dep/img5.webp"
+          }
+        ]
+      },
+      {
+        "name": "CARE Interactive Worksheets (Offline Development by MINEDU)",
+        "description": "Rapid development of a suite of massive digital teaching aids in collaboration with CARE Peru and the Ministry of Education (MINEDU). The project focused on ensuring educational continuity for primary and secondary school students in seven curricular areas (Mathematics, Communication, Science, etc.) during the pandemic. To maximize engagement and learning, gamification was used in the educational environment, allowing students to learn through play. The main technical challenge was offline-first development for tablets, intended for areas without internet access. This required the design of a robust local grade storage system and a master application for teachers, which connected to the student tablet to automatically collect progress and grade files.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "Android"
+        ],
+        "thumbnail": "/assets/projects/CAREFichas/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/NwUr1uyS6Lk"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img9.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img10.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img11.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/CAREFichas/img12.webp"
+          }
+        ]
+      },
+      {
+        "name": "AR Marketing Demo",
+        "description": "Technical demonstration focused on mastering advanced Augmented Reality capabilities using the Vuforia SDK. A custom Occlusion Shader was implemented to manage the interaction of virtual objects with real-world elements, creating a visually coherent effect where objects can be partially hidden by the environment (occlusion). This technical showcase validates the precise implementation of surface tracking, interactivity management, and optimization for a fluid and believable AR experience.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "Vuforia",
+          "AR"
+        ],
+        "thumbnail": "/assets/projects/AR_MarketingDemo/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/JGierWAu_U0"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/AR_MarketingDemo/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/AR_MarketingDemo/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/AR_MarketingDemo/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/AR_MarketingDemo/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/AR_MarketingDemo/img5.webp"
+          }
+        ]
+      },
+      {
+        "name": "Luminaires",
+        "description": "Development of an interactive simulation solution for the assessment and verification of illumination levels (lux) inside a mine. The project was based on real-life lux meter calculations to ensure simulation accuracy. It was initially implemented for Virtual Reality (VR), offering an immersive view, and then optimized and ported to WebGL for widespread access and deployment via browsers.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "VR",
+          "WebGL"
+        ],
+        "thumbnail": "/assets/projects/Luminarias/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/rT4Q0IvbcBE"
+          },
+          {
+            "type": "video",
+            "src": "https://youtu.be/4UPzZW6CZpM"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img9.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Luminarias/img10.webp"
+          }
+        ]
+      },
+      {
+        "name": "Enel Projects (VR Maintenance and Safety Simulator)",
+        "description": "Development of a complex Virtual Reality (VR) simulator for training the complete maintenance sequence in an electrical substation. The project focuses on operational safety, requiring the employee (player) to rigorously follow the \"Five Golden\" Rules of safety, including the precise selection of PPE, tools, and the De-Energize/Lockout/Tagout (LOTO) process. As a key innovation, a voice recognition and response API was integrated (using IBM technology at the time) to create an interactive training environment. The simulator was initially developed in VR and later optimized and ported to WebGL for broad access.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "VR",
+          "WebGL",
+          "IBM Watson"
+        ],
+        "thumbnail": "/assets/projects/Enel/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/syAGjLV70Vk"
+          },
+          {
+            "type": "video",
+            "src": "https://youtu.be/R70TMtNbzKs"
+          },
+          {
+            "type": "video",
+            "src": "https://youtu.be/OxbSZrlz80s"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Enel/img9.webp"
+          }
+        ]
+      },
+      {
+        "name": "Hackathon (Perumin 2019)",
+        "description": "Development of a Minimum Viable Product (MVP) during the Perumin 2019 Hackathon, focused on employee safety and accessibility in the SOMA area. The project implemented an interactive simulation of a dump truck to train the critical de-energize, lockout, and tagout (LOTO) procedure. This demonstrates the application of rapid prototyping to generate Extended Reality (XR) solutions that minimize risks in mining environments.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "VR"
+        ],
+        "thumbnail": "/assets/projects/hackaton2019/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/6k6KqCOUab0"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/hackaton2019/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/hackaton2019/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/hackaton2019/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/hackaton2019/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/hackaton2019/img5.webp"
+          }
+        ]
+      },
+      {
+        "name": "Certus Multi-area Educational Simulator",
+        "description": "Design and development of a suite of 11 interactive simulators focused on multiple areas of study at Certus (including banking, importing, and customer service). Each module was developed in Unity and optimized for WebGL for integration into the institution's educational platform. The main objective was to provide students with practical experience in a business simulation environment, with the key feature of automatically reflecting results and performance in their grades, demonstrating expertise in developing scalable training content with direct academic impact.",
+        "technologies": [
+          "Unity",
+          "C#",
+          "WebGL"
+        ],
+        "thumbnail": "/assets/projects/Simulador Academico Certus/img1.webp",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://youtu.be/79AChp89Lqw"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img1.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img2.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img3.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img4.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img5.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img6.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img7.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img8.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img9.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img10.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img11.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img12.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img13.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img14.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img15.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img16.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img17.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img18.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img19.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img20.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img21.webp"
+          },
+          {
+            "type": "image",
+            "src": "/assets/projects/Simulador Academico Certus/img22.webp"
+          }
+        ]
+      }
+    ]
   },
   "achievements": {
     "title": "Achievements",
