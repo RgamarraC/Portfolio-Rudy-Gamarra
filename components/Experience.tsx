@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { ExperienceItem } from '../types';
 import { Section } from './Section';
+import { ContainerListExperience } from './styled';
 interface ExperienceProps {
   experiences: ExperienceItem[];
   id: string;
@@ -14,7 +15,7 @@ const Experience: React.FC<ExperienceProps> = ({ experiences, id, title }) => {
   return (
     <Section number="02" title={title} id={id}>
       <div className="flex flex-col md:flex-row -mx-4">
-        <div className="md:w-1/4 px-4">
+        <ContainerListExperience className="md:w-1/4 px-4">
           <ul className="flex flex-row md:flex-col overflow-x-auto md:overflow-x-visible border-b-2 md:border-b-0 md:border-l-2 border-slate-700">
             {experiences.map((exp, index) => (
               <li key={index} className="md:w-full">
@@ -31,9 +32,9 @@ const Experience: React.FC<ExperienceProps> = ({ experiences, id, title }) => {
               </li>
             ))}
           </ul>
-        </div>
+        </ContainerListExperience>
 
-        <div className="md:w-3/4 px-4 mt-6 md:mt-0 pl-[100px]">
+        <div className="md:w-3/4 px-4 mt-6 md:mt-0 pl-8 md:pl-[100px]">
           <h3 className="text-lg font-bold text-slate-200">
             <span>{activeExperience.title}</span>
             <span className="text-cyan-300"> @ {activeExperience.company}</span>
