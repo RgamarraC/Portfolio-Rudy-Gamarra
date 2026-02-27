@@ -119,16 +119,22 @@
     "title": "Education",
     "studies": [
       {
-        "institution": "TECSUP",
-        "degree": "Design and Development of Simulators and Video Games",
+        "institution": "San Ignacio de Loyola University",
+        "degree": "Business and Systems Engineering",
         "location": "Lima, Peru",
-        "period": "2016-2022"
+        "period": "2025-Present"
       },
       {
         "institution": "CONVERSA - TECSUP",
         "degree": "Intermediate English Level",
         "location": "Lima, Peru",
         "period": "2025"
+      },
+      {
+        "institution": "TECSUP",
+        "degree": "Design and Development of Simulators and Video Games",
+        "location": "Lima, Peru",
+        "period": "2016-2022"
       }
     ]
   },
