@@ -15,10 +15,10 @@ const Skills: React.FC<SkillsProps> = ({ skills, id, title }) => {
         {skills.map((category) => (
           <div key={category.category}>
             <h3 className="font-bold text-slate-200 mb-3">{category.category}</h3>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-4 gap-y-2">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-2.5">
               {category.skills.map((skill) => (
                 <li key={skill.name} className="flex items-center">
-                  <span className="text-cyan-400 mr-2 text-lg">▹</span>
+                  <span className="text-cyan-400 mr-2 text-lg shrink-0">▹</span>
                   <span className="text-slate-300 text-sm">
                     {skill.name}
                     {skill.level && <span className="text-slate-500 ml-1.5 text-xs">({skill.level})</span>}

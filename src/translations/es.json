@@ -17,28 +17,51 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "profession": "Desarrollador Senior de Simuladores y Videojuegos",
-    "shortAbout": "Construyo experiencias digitales inmersivas y atractivas. Con una base en simulación y desarrollo de juegos, me especializo en dar vida a ideas usando Unity, VR/AR y WebGL.",
-    "description": "Especialista en Unity con un historial comprobado en el desarrollo de soluciones innovadoras para sectores industriales y educativos. Experiencia destacada en la publicación de proyectos en plataformas Meta y Steam, así como en el desarrollo de simuladores para el sector minero-energético. Mi capacidad para combinar creatividad técnica con objetivos de negocio ha resultado en soluciones efectivas y experiencias inmersivas de alto impacto, incluyendo el reconocimiento en la Hackathon de la Sociedad Nacional de Minería Petróleo y Energía."
+    "profession": "Desarrollador de Software | XR, Simuladores Industriales & Sistemas de Gestión",
+    "shortAbout": "Especializado en tecnologías inmersivas (XR), simuladores industriales y sistemas de gestión empresarial (ERP, HealthTech, SST). Experiencia integral desde arquitectura backend en la nube hasta validación operativa en campo.",
+    "description": "Desarrollador de software especializado en tecnologías inmersivas (XR), simuladores industriales y sistemas de gestión empresarial (ERP, HealthTech, SST). Experiencia en el ciclo de vida completo de aplicaciones: desde la arquitectura backend en la nube y modelado de procesos hasta el despliegue de experiencias interactivas y validación operativa en campo (unidades mineras y entornos clínicos). Historial de publicación en Meta/Steam y participación activa en divulgación tecnológica universitaria y eventos del sector minero-energético."
   },
   "experience": {
     "title": "Experiencia",
     "position": [
       {
-        "company": "OraculusXR (Freelance)",
-        "title": "Desarrollador Unity",
-        "period": "Febrero 2025 - Agosto 2025",
+        "company": "Consultoría Freelance (ERP & SST)",
+        "title": "Consultor / Desarrollador de Software Empresarial (ERP & SST)",
+        "period": "2026 – Presente",
         "location": "Lima, Perú",
         "description": [
-          "Diseño y desarrollo de aplicativo para el área de Fisioterapia.",
-          "Implementación de detección de cuerpo para Realidad Mixta.",
-          "Desarrollo e implementación de gamificación."
+          "Diseño y desarrollo de módulos ERP: Implementación de sistemas para control de inventarios (Kardex), gestión de flotas y facturación electrónica integrada con normativas SUNAT.",
+          "Digitalización de procesos SST: Desarrollo de plataformas para la gestión y seguimiento de Seguridad y Salud en el Trabajo (matrices IPERC, reportes de incidentes, control de inspecciones y capacitaciones normativas).",
+          "Modelado y optimización de procesos (BPMN): Reingeniería de flujos operativos para reducir tiempos administrativos e integrar bases de datos relacionales seguras."
+        ]
+      },
+      {
+        "company": "Min. de Cultura - Caral (App Móvil)",
+        "title": "Desarrollador VR / Móvil",
+        "period": "Junio 2026 – Julio 2026",
+        "location": "Lima, Perú",
+        "description": [
+          "Auditoría y rescate de código legado: Diagnóstico y refactorización integral de la aplicación móvil Android desarrollada por un proveedor anterior, resolviendo fallos estructurales y dependencias obsoletas.",
+          "Cumplimiento normativo y compliance: Adecuación técnica a los requisitos vigentes de Google Play (actualización de Target API/SDK, políticas de privacidad y optimización de arquitectura de empaquetado).",
+          "Optimización y migración de recursos: Reestructuración de la carga de assets pesados (videos y modelos), reduciendo el peso de la app y el consumo de memoria en dispositivos móviles.",
+          "Subsanación y republicación exitosa: Resolución de las observaciones y rechazos en Google Play Console, restaurando la disponibilidad y presencia de la app oficial en tienda."
+        ]
+      },
+      {
+        "company": "OraculusXR (Freelance)",
+        "title": "Desarrollador XR & Sistemas HealthTech",
+        "period": "Febrero 2025 – Marzo 2026",
+        "location": "Lima, Perú",
+        "description": [
+          "Diseño y desarrollo de aplicativo inmersivo para telerehabilitación y fisioterapia con seguimiento corporal en Realidad Mixta.",
+          "Arquitectura e integración de servicios en la nube (AWS) y API REST para captura, sincronización y visualización de métricas de evolución clínica de pacientes.",
+          "Implementación de protocolos de privacidad de datos y gamificación terapéutica para optimizar la adherencia al tratamiento."
         ]
       },
       {
         "company": "GDP",
         "title": "Desarrollador Unity",
-        "period": "Noviembre 2024 - Febrero 2025",
+        "period": "Noviembre 2024 – Febrero 2025",
         "location": "Lima, Perú",
         "description": [
           "Desarrollo e implementación de juegos para máquinas de casino utilizando Unity.",
@@ -48,9 +71,9 @@
         ]
       },
       {
-        "company": "Ministerio de Cultura - Zona Arqueológica Caral (Freelance)",
+        "company": "Min. de Cultura - Caral (VR)",
         "title": "Desarrollador VR",
-        "period": "Junio 2024 - Julio 2024",
+        "period": "Junio 2024 – Julio 2024",
         "location": "Lima, Perú",
         "description": [
           "Optimización y publicación exitosa de experiencia inmersiva en Meta y Steam.",
@@ -59,9 +82,29 @@
         ]
       },
       {
+        "company": "Validación Operativa en Mina",
+        "title": "Especialista en Demostraciones Operativas y Validación en Mina",
+        "period": "2024 – 2026",
+        "location": "Lima, Perú",
+        "description": [
+          "Realización de pruebas piloto y eventos demostrativos de simuladores de entrenamiento en unidades mineras.",
+          "Capacitación técnica directa a supervisores y cuadrillas de operarios en interior mina y superficie, validando ergonomía, usabilidad y transferencia de aprendizaje."
+        ]
+      },
+      {
+        "company": "Divulgación Tecnológica XR",
+        "title": "Ponente y Facilitador en Tecnologías Inmersivas",
+        "period": "2025",
+        "location": "Lima, Perú",
+        "description": [
+          "Ponente y facilitador en jornadas universitarias, liderando talleres y demostraciones en vivo sobre el impacto de la Realidad Virtual/Aumentada, WebGL y gemelos digitales en la industria nacional.",
+          "Promoción de adopción tecnológica y asesoría en implementación de aulas inmersivas y laboratorios XR para formación superior."
+        ]
+      },
+      {
         "company": "ARTEMAR",
         "title": "Desarrollador de Simuladores VR",
-        "period": "Junio 2023 - Febrero 2024",
+        "period": "Junio 2023 – Febrero 2024",
         "location": "Lima, Perú",
         "description": [
           "Liderazgo en el desarrollo de proyecto SOMA utilizando tecnología Teslasuit.",
@@ -72,7 +115,7 @@
       {
         "company": "Multipacha",
         "title": "Desarrollador de Simuladores",
-        "period": "Marzo 2022 - Marzo 2023",
+        "period": "Marzo 2022 – Marzo 2023",
         "location": "Lima, Perú",
         "description": [
           "Desarrollo de simuladores de seguridad para el sector minero.",
@@ -83,7 +126,7 @@
       {
         "company": "IMMERSIF BRANDS (Freelance)",
         "title": "Desarrollador VR",
-        "period": "Septiembre 2022 - Octubre 2022",
+        "period": "Septiembre 2022 – Octubre 2022",
         "location": "Lima, Perú",
         "description": [
           "Desarrollo completo de simulador veterinario para Oculus Quest.",
@@ -94,7 +137,7 @@
       {
         "company": "MODO BETA (Freelance)",
         "title": "Desarrollador Unity WebGL",
-        "period": "Abril 2022 - Agosto 2022",
+        "period": "Abril 2022 – Agosto 2022",
         "location": "Lima, Perú",
         "description": [
           "Desarrollo de visualizador 3D de departamentos en WebGL.",
@@ -105,12 +148,12 @@
       {
         "company": "Playtec",
         "title": "Desarrollador de Simuladores",
-        "period": "Enero 2019 - Junio 2021",
+        "period": "Enero 2019 – Junio 2021",
         "location": "Lima, Perú",
         "description": [
           "Desarrollo multiplataforma de simuladores educativos y de entrenamiento.",
           "Presentación exitosa de proyectos en Perumin 2019.",
-          "Desarrollo de material interactivo para CARE MINEDU."
+          "Desarrollo de material interactivo para CARE y MINEDU."
         ]
       }
     ]
@@ -119,22 +162,22 @@
     "title": "Educación",
     "studies": [
       {
-        "institution": "Universidad San Ignacio de Loyola",
+        "institution": "USIL - Universidad San Ignacio de Loyola",
         "degree": "Ingeniería Empresarial y de Sistemas",
         "location": "Lima, Perú",
-        "period": "2025-Actualidad"
+        "period": "2025 - Actual"
+      },
+      {
+        "institution": "TECSUP",
+        "degree": "Diseño y Desarrollo de Simuladores y Videojuegos",
+        "location": "Lima, Perú",
+        "period": "2016 - 2022"
       },
       {
         "institution": "CONVERSA - TECSUP",
         "degree": "Inglés Nivel Intermedio",
         "location": "Lima, Perú",
         "period": "2025"
-      },
-      {
-        "institution": "TECSUP",
-        "degree": "Diseño y Desarrollo de Simuladores y Videojuegos",
-        "location": "Lima, Perú",
-        "period": "2016-2022"
       }
     ]
   },
@@ -142,31 +185,65 @@
     "title": "Habilidades",
     "list": [
       {
-        "category": "Tecnologías",
+        "category": "Tecnologías & Lenguajes",
         "skills": [
           {
             "name": "Unity",
-            "level": "avanzado"
+            "level": "Avanzado"
           },
           {
             "name": "C#"
           },
           {
+            "name": ".NET"
+          },
+          {
             "name": "WebGL"
           },
           {
-            "name": "VR/AR"
+            "name": "APIs REST"
           },
           {
-            "name": "Meta Quest"
-          },
-          {
-            "name": "Steam VR"
+            "name": "VR/AR (Meta Quest, SteamVR)"
           }
         ]
       },
       {
-        "category": "Herramientas",
+        "category": "Cloud & Bases de Datos",
+        "skills": [
+          {
+            "name": "AWS (Cognito, Lambda, DynamoDB)"
+          },
+          {
+            "name": "PostgreSQL"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "Firebase"
+          }
+        ]
+      },
+      {
+        "category": "Sistemas & Negocio",
+        "skills": [
+          {
+            "name": "ERP"
+          },
+          {
+            "name": "Facturación Electrónica (SUNAT)"
+          },
+          {
+            "name": "Normativa y Gestión SST (IPERC)"
+          },
+          {
+            "name": "Arquitectura BPMN"
+          }
+        ]
+      },
+      {
+        "category": "Herramientas & Métodos",
         "skills": [
           {
             "name": "Git"
@@ -175,35 +252,13 @@
             "name": "JIRA"
           },
           {
+            "name": "Blender"
+          },
+          {
             "name": "Visual Studio"
           },
           {
-            "name": "Unity Profiler"
-          }
-        ]
-      },
-      {
-        "category": "Modelado 3D",
-        "skills": [
-          {
-            "name": "Maya"
-          },
-          {
-            "name": "Blender"
-          }
-        ]
-      },
-      {
-        "category": "Metodologías",
-        "skills": [
-          {
-            "name": "Scrum"
-          },
-          {
-            "name": "Gamification"
-          },
-          {
-            "name": "Agile Development"
+            "name": "Scrum / Ágil"
           }
         ]
       },
@@ -215,7 +270,7 @@
             "level": "Nativo"
           },
           {
-            "name": "Ingles",
+            "name": "Inglés",
             "level": "Intermedio"
           }
         ]
@@ -879,16 +934,16 @@
     "title": "Logros",
     "list": [
       {
-        "description": "Segundo Puesto en la 5ta Hackatón \"Juntos hacia la innovación desde el sector minero energético\" ",
+        "description": "Segundo Puesto en la 5ta Hackatón \"Juntos hacia la innovación desde el sector minero energético\"",
         "source": "SNMPE, 2019"
       },
       {
         "description": "Publicación exitosa de múltiples proyectos en Meta Store y Steam",
-        "source": ""
+        "source": "Meta Store & Steam"
       },
       {
         "description": "Desarrollo de soluciones innovadoras para sectores críticos como minería y educación",
-        "source": ""
+        "source": "Minería & Educación"
       }
     ]
   }
